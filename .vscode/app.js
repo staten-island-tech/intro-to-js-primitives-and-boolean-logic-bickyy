@@ -1,10 +1,10 @@
 // console.log("connected"); 
 //use this to check each time
 
-// let string = "I am a string";
-// let sentence = "Hello Angel" + "and Vicky";
+// let string = " I am a string ";
+// let sentence = " Hello Angel " + " and Vicky";
 // let combine = string + sentence
-
+// console.log(combine)
 
 // let student = "Sandra"
 // let student2 = "Gia";
