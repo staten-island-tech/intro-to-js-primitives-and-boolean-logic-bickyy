@@ -74,14 +74,14 @@
 //     console.log("just regular milk");
 // }
 
-// let temperature = 70; 
-// if (temperature < 86) {
-//     console.log("too cold");
-// } else if (temperature < 72 && temperature > 68) {
-//     console.log("perfect");
-// } else if (temperature < 76 && temperature > 73){
-//     console.log("warm");
-// } else if (temperature > 76){
-//     console.log("too hot");
-// }
+let temperature = 90; 
+if (temperature < 86) {
+    console.log("too cold");
+} else if (temperature <= 72 && temperature >= 68) {
+    console.log("perfect");
+} else if (temperature <= 76 && temperature > 72){
+    console.log("warm");
+} else {
+    console.log("too hot");
+}
 
