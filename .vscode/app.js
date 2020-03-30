@@ -74,14 +74,112 @@
 //     console.log("just regular milk");
 // }
 
-let temperature = 90; 
-if (temperature < 86) {
-    console.log("too cold");
-} else if (temperature <= 72 && temperature >= 68) {
-    console.log("perfect");
-} else if (temperature <= 76 && temperature > 72){
-    console.log("warm");
-} else {
-    console.log("too hot");
-}
+// let temperature = 90; 
+// if (temperature < 86) {
+//     console.log("too cold");
+// } else if (temperature <= 72 && temperature >= 68) {
+//     console.log("perfect");
+// } else if (temperature <= 76 && temperature > 72){
+//     console.log("warm");
+// } else {
+//     console.log("too hot");
+// }
 
+// function test() {
+//     console.log("I'm a function");
+// }
+// test(); 
+
+// const add = function (x,y) {
+//     return x + y; // return ends the function 
+// };
+// console.log(add(10,20));
+// console.log(add(30,50));
+// //let name = "Richard";
+// const name = "alan" ; // cannot re-define const 
+
+
+// const hello = function () {
+//     console.log("hello");
+// }
+// const bye = function () {
+//     console.log("bye");
+// }
+// const hiBye = function () {
+//     hello();
+//     bye();
+//     hello();
+//     bye();
+// };
+// hiBye();
+
+// const name = "Thrushi"; // global variable or global space 
+
+// function displayName() {
+//     const name = "Kelly" ; // local of function scope 
+//     alert(none);
+//     function sun(){
+//         const name2 = "Jacob";
+//         console.log(name2); // inner function has access to outer function 
+//     }
+//     return sun();
+// }
+// displayName();
+
+// //example 
+// function displayName() {
+//     const name = "Kelly" ; // local of function scope 
+//     function sun(){
+//         console.log(name); // inner function has access to outer function 
+//     }
+//     return sun;
+// }
+// const myFunc= displayName();
+// myFunc();
+// // example above is called a closure 
+
+
+//arrays
+// const names = ["aarthi", "Vicky", "Vincent", "Doyle", "Kelly"];
+// names.push("Karen");
+
+
+// const names = ["aarthi", "Vicky", "Vincent", "Doyle", "Kelly"];
+// names.forEach(name => console.log(name));
+
+//spread operator 
+// const numbers = [1,2,3];
+// const add = function(x,y,z) {
+//     return x + y + z;
+// };
+// console.log(add(...numbers));
+
+// Challenge 1
+
+
+// Using the above array filter out all students whose names contain
+// less than 5 characters
+
+
+// const newArr = students
+// .push ()
+// .forEach ()
+// .map()
+// let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa",
+// "Richard"];
+// const result = students.filter(student => student.length < 5);
+// console.log(result);
+
+
+
+// Challenge 2
+// Using the above array check to see if the array “includes” “junshen”
+// Write a seperate function to check if “Alan” or “Savva” were included
+// in “some” of the array
+// USE MDN to find the appropriate array methods
+
+
+let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa",
+"Richard"];
+console.log(students.includes("junshen"));
+console.log(students.includes("Alan", "Savva"));
