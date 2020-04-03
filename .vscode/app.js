@@ -179,7 +179,10 @@
 // USE MDN to find the appropriate array methods
 
 
-let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa",
-"Richard"];
-console.log(students.includes("junshen"));
-console.log(students.includes("Alan", "Savva"));
+// let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa",
+// "Richard"];
+// console.log(students.includes("junshen"));
+// console.log(students.includes("Alan", "Savva"));
+
+//console.log(students.some(name => name == "Savva" || name == "ALan"));
+
