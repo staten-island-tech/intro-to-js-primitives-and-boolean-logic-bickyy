@@ -186,3 +186,22 @@
 
 //console.log(students.some(name => name == "Savva" || name == "ALan"));
 
+const Homer = {
+    name: "Homer",
+    age: 32,
+    family: {
+        wife: {
+            name: "Marge",
+            age:32,
+        },
+        son: {
+            name: "Bart",
+            age: 10
+        }
+    }
+};
+
+Homer.family.daughter = {
+    name: "Lisa",
+    age: 8
+}
